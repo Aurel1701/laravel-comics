@@ -17,6 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/fumetti', function () {
-    $comics = config('db.comics');
-    return view('app', compact('comics'));
-})->name('news');
+    return view('layouts/fumetti', compact('comics'));
+});
