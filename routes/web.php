@@ -17,5 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/fumetti', function () {
-    return view('fumetti');
+    return view('/fumetti');
 });

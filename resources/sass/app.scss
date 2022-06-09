@@ -1,8 +1,95 @@
 header{
-    
     .header-container{
         display: flex;
         justify-content: space-around;
         align-items: center;
+        
+        .logo{
+            margin: 15px 10px;
+        }
+        
+        .header-navbar{
+            
+            ul{
+                display: flex;
+                
+                li {
+                    color: #484646;
+                    padding: 15px;
+                    list-style: none;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    cursor: pointer;
+                    
+                    &:hover{
+                        color:#1e86ed;
+                        border-bottom: 4px solid #1e86ed;
+                    }
+                }
+            }
+        }
     }
 }
+
+.jumbo{
+    height: 350px;
+    background: url("/img/jumbotron.jpg") no-repeat;
+    background-size: cover;
+}
+.current-series {
+    position: absolute;
+    margin: -20px 250px;
+    width: 200px;
+    background-color: #1e86ed;
+    padding: 10px 10px;
+    font-size: 20px;
+}h3{
+    color: #fdf0ff;
+}
+
+footer {
+    height: 500px;
+    display: flex;
+    background: url("/img/footer-bg.jpg") no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+    .footer-left {
+        display: flex;
+        padding: 40px;
+        margin-left: 20px;
+
+        ul {
+            margin: 0 15px 10px 30px;
+
+            li {
+                list-style: none;
+                margin-left: 20px;
+                line-height: 30px;
+
+                h3 {
+                    font-size: 18px;
+                    color: #fdf0ff;
+                    text-transform: uppercase;
+                }
+                a {
+                    text-decoration: none;
+                    color: grey;
+
+                    &:hover {
+                        color: #fdf0ff;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-right-logo {
+        margin: 10px 200px;
+
+        img {
+            margin: -90px 0;
+        }
+    }
+}
+

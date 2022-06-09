@@ -2,6 +2,6 @@
 
 @section('content')
 
-test
+<h3 class="current-series">CURRENT SERIES</h3>
 
 @endsection
