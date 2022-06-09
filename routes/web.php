@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/comics', function () {
+Route::get('/fumetti', function () {
     $comics = config('db.comics');
     return view('app', compact('comics'));
 })->name('news');
