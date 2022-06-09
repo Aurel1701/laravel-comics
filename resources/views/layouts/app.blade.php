@@ -12,7 +12,9 @@
         <!-- Styles -->
     </head>
     <body>
-    <header></header>
+    <header>
+        <h1>Welcome Comics</h1>
+    </header>
 
          <!-- Aggiungo segnaposto per il contenuto principale -->
     <main>
