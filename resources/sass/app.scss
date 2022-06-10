@@ -48,6 +48,21 @@ header{
 }h3{
     color: #fdf0ff;
 }
+main{
+    background-color: #1d1c1c;
+    text-transform: uppercase;
+    color: #fdf0ff;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+.cards-box {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+};
 
 footer {
     height: 500px;

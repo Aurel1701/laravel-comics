@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/fumetti', function () {
-    $data = config('comics');
+    $comics = config('comics');
     return view('fumetti', compact('comics'));
 });
