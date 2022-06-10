@@ -4,9 +4,7 @@
 
 <h3 class="current-series">CURRENT SERIES</h3>
 <section class="container">
-<div class="comics pb-4">
-
-
+<div class="">
     <div class="container">
         <h1>Current Series</h1>
         <div class="">
