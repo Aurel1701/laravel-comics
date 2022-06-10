@@ -10,10 +10,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
 
         
-     richiamo al mio app.css
+     
        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
-     richiamo al mio app.js
+     
        <script src="{{ asset('js/app.js')}}"></script>
 
     </head>
