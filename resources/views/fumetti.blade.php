@@ -3,25 +3,21 @@
 @section('content')
 
 <h3 class="current-series">CURRENT SERIES</h3>
-<section class="container">
-<div class="">
-    <div class="container">
-        <h1>Current Series</h1>
-        <div class="">
-            @forelse($comics as $comic)
-            <div class="col">
-                <div class="comic">
-                    <img class="img-fluid" src="{{$comic['thumb']}}" alt="">
-                    <p>{{$comic['series']}}</p>
-                </div>
+<section class="products container">
+    <h1>Pasta</h1>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+        @forelse($data as $comic)
+        <div class="col">
+            <div class="">
+                <img class="img-fluid" src="{{$comic['thumb']}}" alt="">
+                <h5 class="pb-2">{{$comic['series']}}</h5>
             </div>
-            @endforelse
         </div>
-    </div>
 
+        @empty
+        
 
-    <div class="text-center">
-        <a class="" href="#">Load mode</a>
+        @endforelse
     </div>
 
 </section>
